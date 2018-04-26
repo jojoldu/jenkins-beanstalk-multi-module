@@ -1,1 +1,3 @@
 rootProject.name = 'jenkins-beanstalk-multi-module'
+
+include 'beanstalk-external-api', 'beanstalk-internal-api'

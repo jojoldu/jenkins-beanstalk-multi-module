@@ -1,12 +1,12 @@
-package com.jojoldu.aws.beanstalk;
+package com.jojoldu.aws.beanstalk.external;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class JenkinsBeanstalkMultiModuleApplication {
+public class ExternalApiApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(JenkinsBeanstalkMultiModuleApplication.class, args);
+        SpringApplication.run(ExternalApiApplication.class, args);
     }
 }
