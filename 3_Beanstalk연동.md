@@ -93,14 +93,3 @@ aws elasticbeanstalk create-application-version --region ap-northeast-2 --applic
 aws elasticbeanstalk update-environment --region ap-northeast-2 --environment-name external-api --version-label ${GIT_COMMIT}-${BUILD_TAG}
 ```
 
-
-```bash
-aws configure
-```
-
-```bash
-AWS Access Key ID [None]: 액세스 키 ID
-AWS Secret Access Key [None]: 비밀 액세스 키
-Default region name [None]: ap-northeast-2
-Default output format [None]: json
-```
